@@ -47,4 +47,16 @@ add_action( 'wp_head', 'load_ga' );
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
-remove_filter ( 'the_content',  'wpautop' );
+
+/*   Use own jQuery
+/* -------------------------------------------------- */
+function replace_jquery() {
+
+  if ( !is_front_page() ) {
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1' );
+		wp_enqueue_script( 'jquery' );
+  }
+
+}
+add_action( 'init', 'replace_jquery' );
