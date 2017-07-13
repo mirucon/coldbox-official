@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: official\n"
-"POT-Creation-Date: 2017-07-01 21:10+1200\n"
-"PO-Revision-Date: 2017-07-01 21:10+1200\n"
+"POT-Creation-Date: 2017-07-11 14:45+1200\n"
+"PO-Revision-Date: 2017-07-13 11:17+1200\n"
 "Last-Translator: \n"
 "Language-Team: Mirucon\n"
 "Language: ja\n"
@@ -43,7 +43,7 @@ msgstr "Download"
 
 #: home.php:11
 msgid "A Clean Blog-Focused WordPress Theme"
-msgstr "ブログ用途にフォーカスした、綺麗な WordPress テーマ"
+msgstr "ブログ用途にフォーカスした、美しい WordPress テーマ"
 
 #: home.php:22
 msgid "Child Theme"
@@ -76,15 +76,15 @@ msgstr "レスポンシブレイアウト"
 #: home.php:63
 msgid "It is compatible with any devices."
 msgstr ""
-"Flexbox モジュールによる柔軟な設計でいかなるデバイスでも最適なデザインにな"
-"ります。"
+"Flexbox モジュールによる柔軟な設計で、いかなるデバイスでも最適なデザインを"
+"表示します。"
 
 #: home.php:70
 msgid "Modern Layout"
 msgstr "モダンレイアウト"
 
 #: home.php:71
-msgid "It is layouted by Flexbox module, which is really flexible."
+msgid "It is layouted with the Flexbox module, which is really flexible."
 msgstr ""
 "柔軟なレイアウトが出来る最先端な Flexbox レイアウトモジュールを採用していま"
 "す。"
@@ -96,8 +96,8 @@ msgstr "安全なコード"
 #: home.php:79
 msgid "Its strings are all sanitized and escaped, that means safety."
 msgstr ""
-"すべての文字列は適切にサニタイズ・エスケープされており、セキュリティ上の心"
-"配もありません。"
+"すべての文字列は適切に無害化・エスケープされており、セキュリティ上の心配も"
+"ありません。"
 
 #: home.php:85
 msgid "Quick Load"
@@ -138,7 +138,7 @@ msgstr "よくある質問"
 
 #: home.php:129
 msgid "Where to get a child theme?"
-msgstr "子テーマはどこでダウンロードできますか ?"
+msgstr "子テーマはどこでダウンロードできますか？"
 
 #: home.php:131
 msgid "Its link is on top of this page."

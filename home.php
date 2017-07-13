@@ -179,4 +179,4 @@
 
 </main>
 
-<?php get_template_part( 'footer-child' ); ?>
+<?php get_footer(); ?>
