@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: official\n"
-"POT-Creation-Date: 2017-07-11 14:45+1200\n"
-"PO-Revision-Date: 2017-07-13 11:17+1200\n"
+"POT-Creation-Date: 2017-07-21 14:41+1200\n"
+"PO-Revision-Date: 2017-07-21 14:41+1200\n"
 "Last-Translator: \n"
 "Language-Team: Mirucon\n"
 "Language: ja\n"
@@ -76,8 +76,8 @@ msgstr "レスポンシブレイアウト"
 #: home.php:63
 msgid "It is compatible with any devices."
 msgstr ""
-"Flexbox モジュールによる柔軟な設計で、いかなるデバイスでも最適なデザインを"
-"表示します。"
+"Flexbox モジュールによる柔軟な設計で、いかなるデバイスでも最適なデザインを表"
+"示します。"
 
 #: home.php:70
 msgid "Modern Layout"
@@ -96,8 +96,8 @@ msgstr "安全なコード"
 #: home.php:79
 msgid "Its strings are all sanitized and escaped, that means safety."
 msgstr ""
-"すべての文字列は適切に無害化・エスケープされており、セキュリティ上の心配も"
-"ありません。"
+"すべての文字列は適切に無害化・エスケープされており、セキュリティ上の心配もあ"
+"りません。"
 
 #: home.php:85
 msgid "Quick Load"
@@ -183,8 +183,8 @@ msgstr "新機能の要望"
 
 #: home.php:152
 msgid ""
-"Not satisfied with the features? Just tell me what you want. I will try to "
-"add that on the theme."
+"Not satisfied with the features? You can just tell me what you want through "
+"the forum or my email."
 msgstr "新機能の要望も作者までお気軽にお問い合わせください。"
 
 #: home.php:167

@@ -142,14 +142,14 @@
         <ul class="question">
           <li><?php _e( 'I found a bug. How can I report it?', 'official' ); ?></li>
         </ul>
-        <p class="answer"><?php $tw = '<a href="https://twitter.com/@mirucons/" target="_blank">'.__( 'My Twitter', 'official' ).'</a>'; echo sprintf( __( 'Just let me know about the bug on the forum or <a href="mailto:admin@mirucon.com">email me</a>. Thank you very much.', 'official' ), $tw ); ?></p>
+        <p class="answer"><?php $tw = '<a href="https://twitter.com/@mirucons/" target="_blank">' . __( 'My Twitter', 'official' ) . '</a>'; echo sprintf( __( 'Just let me know about the bug on the forum or <a href="mailto:admin@mirucon.com">email me</a>. Thank you very much.', 'official' ), $tw ); ?></p>
       </div>
 
       <div class="question-box">
         <ul class="question">
           <li><?php _e( 'I have a new feature request.', 'official' ); ?></li>
         </ul>
-        <p class="answer"><?php esc_html_e( 'Not satisfied with the features? Just tell me what you want. I will try to add that on the theme.', 'official' ); ?></p>
+        <p class="answer"><?php esc_html_e( 'Not satisfied with the features? You can just tell me what you want through the forum or my email.', 'official' ); ?></p>
       </div>
 
     </div>
@@ -165,7 +165,7 @@
       <div class="columns cards">
 
         <a class="column card is-6 addon sharebuttons" href="<?php _e( 'https://coldbox.miruc.co/addons/share-buttons/', 'official' ); ?>">
-          <div class="addon-image"><img src="<?php echo esc_attr( get_theme_file_uri('img/sharebuttons.jpg') ); ?>" alt="sharebuttons"></div>
+          <div class="addon-image"><img src="<?php echo esc_attr( get_theme_file_uri( 'img/sharebuttons.jpg' ) ); ?>" alt="sharebuttons"></div>
           <div class="addon-content">
             <h3 class="addon-title"><?php esc_html_e( 'Share Buttons Add-On', 'official' ); ?></h3>
             <p class="addon-description"><?php esc_html_e( 'The add-on adds social buttons easily.', 'official' ); ?></p>
