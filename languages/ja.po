@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: official\n"
-"POT-Creation-Date: 2017-07-21 14:41+1200\n"
-"PO-Revision-Date: 2017-07-21 14:41+1200\n"
+"POT-Creation-Date: 2017-07-22 20:48+1200\n"
+"PO-Revision-Date: 2017-07-22 20:48+1200\n"
 "Last-Translator: \n"
 "Language-Team: Mirucon\n"
 "Language: ja\n"
@@ -30,7 +30,7 @@ msgid "languages"
 msgstr "languages"
 
 #: header-child.php:25
-msgid "https://coldbox.miruc.co/japanese/"
+msgid "https://coldbox.miruc.co/ja/"
 msgstr "https://coldbox.miruc.co/"
 
 #: header-child.php:25
@@ -155,7 +155,7 @@ msgstr "https://ja.wordpress.org/plugins/regenerate-thumbnails/"
 #: home.php:138
 #, php-format
 msgid ""
-"You should run regenerate all your thumbnails using %s once after theme "
+"You should regenerate all your thumbnails using %s once after the theme "
 "installed. But that's it! Set up whatever you want on the theme customizer "
 "and enjoy the theme."
 msgstr ""

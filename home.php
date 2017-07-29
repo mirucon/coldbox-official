@@ -1,4 +1,4 @@
-<?php get_template_part( 'header-child' ); ?>
+<?php get_header( 'child' ); ?>
 
 <main class="main">
 
@@ -135,7 +135,7 @@
         <ul class="question">
           <li><?php _e( 'I have just installed the theme! What should I do first?', 'official' ); ?></li>
         </ul>
-        <p class="answer"><?php $reg = '<a href="'.__( 'https://wordpress.org/plugins/regenerate-thumbnails/', 'official' ).'" target="_blank">Regenerate Thumbnails</a>'; echo sprintf( __( 'You should run regenerate all your thumbnails using %s once after theme installed. But that\'s it! Set up whatever you want on the theme customizer and enjoy the theme.', 'official' ), $reg ); ?></p>
+        <p class="answer"><?php $reg = '<a href="'.__( 'https://wordpress.org/plugins/regenerate-thumbnails/', 'official' ).'" target="_blank">Regenerate Thumbnails</a>'; echo sprintf( __( 'You should regenerate all your thumbnails using %s once after the theme installed. But that\'s it! Set up whatever you want on the theme customizer and enjoy the theme.', 'official' ), $reg ); ?></p>
       </div>
 
       <div class="question-box">
