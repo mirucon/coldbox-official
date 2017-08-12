@@ -93,7 +93,7 @@ function social_settings() {
 		<meta name="twitter:site" content="@mirucons" />
 		<meta name="twitter:creator" content="@mirucons" />
 
-		<link rel="icon" type="image/jpg" href="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-favicon.jpg?=1.1' ) ); ?>">
+		<link rel="icon" type="image/jpg" href="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-favicon.jpg' ) ); ?>">
 		<?php
 	}
 }
