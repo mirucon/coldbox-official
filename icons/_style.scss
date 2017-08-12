@@ -1,0 +1,108 @@
+@import "variables";
+
+@font-face {
+  font-family: 'cd-official-icons';
+  src:
+    url('#{$icomoon-font-path}/cd-official-icons.ttf?3nsl8j') format('truetype'),
+    url('#{$icomoon-font-path}/cd-official-icons.woff?3nsl8j') format('woff'),
+    url('#{$icomoon-font-path}/cd-official-icons.svg?3nsl8j#cd-official-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cd-official-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-th-list {
+  &:before {
+    content: $fa-th-list;
+  }
+}
+.fa-home {
+  &:before {
+    content: $fa-home;
+  }
+}
+.fa-download {
+  &:before {
+    content: $fa-download;
+  }
+}
+.fa-square-o {
+  &:before {
+    content: $fa-square-o;
+  }
+}
+.fa-twitter {
+  &:before {
+    content: $fa-twitter;
+  }
+}
+.fa-github {
+  &:before {
+    content: $fa-github;
+  }
+}
+.fa-wrench {
+  &:before {
+    content: $fa-wrench;
+  }
+}
+.fa-bolt {
+  &:before {
+    content: $fa-bolt;
+  }
+}
+.fa-flash {
+  &:before {
+    content: $fa-flash;
+  }
+}
+.fa-mobile {
+  &:before {
+    content: $fa-mobile;
+  }
+}
+.fa-mobile-phone {
+  &:before {
+    content: $fa-mobile-phone;
+  }
+}
+.fa-shield {
+  &:before {
+    content: $fa-shield;
+  }
+}
+.fa-wordpress {
+  &:before {
+    content: $fa-wordpress;
+  }
+}
+.fa-paint-brush {
+  &:before {
+    content: $fa-paint-brush;
+  }
+}
+.fa-rocket {
+  &:before {
+    content: $fa-rocket;
+  }
+}
+.fa-share2 {
+  &:before {
+    content: $fa-share2;
+  }
+}
+
