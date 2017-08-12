@@ -30,7 +30,7 @@ get_header( 'child' );
 		  <li><a class="nav-item" href="https://coldbox.miruc.co/docs/"><?php esc_html_e( 'Documentaion', 'official' ); ?></a></li>
 		  <li class="has-child">
 			<a class="nav-item"><?php esc_html_e( 'languages', 'official' ); ?></a>
-			<div class="sub-menu"><a class="is-child is-tab nav-item" href="<?php esc_url_raw( 'https://coldbox.miruc.co/ja/', 'official' ); ?>"><?php esc_html_e( '日本語', 'official' ); ?></a></div>
+			<div class="sub-menu"><a class="is-child is-tab nav-item" href="<?php esc_attr( _e( 'https://coldbox.miruc.co/ja/', 'official' ) ); ?>"><?php esc_html_e( '日本語', 'official' ); ?></a></div>
 		  </li>
 		  <li class="is-hidden-mobile">
 			<div class="nav-item download-button field is-grouped">
