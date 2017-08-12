@@ -17,6 +17,7 @@ function enqueue_scripts() {
 		$fa_link = get_parent_theme_file_uri( '/fonts/fontawesome' );
 
 		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ) );
+		wp_dequeue_style( 'icomoon' );
 		wp_deregister_script( 'comment-reply' );
 		wp_deregister_script( 'wp-embed' );
 		wp_deregister_script( 'jquery' );
