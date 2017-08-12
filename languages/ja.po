@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: official\n"
-"POT-Creation-Date: 2017-08-12 20:18+1200\n"
-"PO-Revision-Date: 2017-08-12 20:32+1200\n"
+"POT-Creation-Date: 2017-08-12 21:13+1200\n"
+"PO-Revision-Date: 2017-08-12 21:14+1200\n"
 "Last-Translator: \n"
 "Language-Team: Mirucon\n"
 "Language: ja\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: home.php\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
@@ -29,6 +29,10 @@ msgstr "マニュアル"
 #: header-child.php:32
 msgid "languages"
 msgstr "languages"
+
+#: header-child.php:33
+msgid "https://coldbox.miruc.co/ja/"
+msgstr "https://coldbox.miruc.co/"
 
 #: header-child.php:33
 msgid "日本語"
@@ -162,6 +166,15 @@ msgstr "AMP をサポート"
 #: home.php:146
 msgid "See AMP Demo"
 msgstr "AMP デモを見る"
+
+#: home.php:147
+#, php-format
+msgid ""
+"Supports the AMP, which is the fastest HTML format recommened by Google. "
+"You'll never lost visitors due to loading speed. %s"
+msgstr ""
+"Google の推奨するモバイル用の超速 HTML フォーマットである AMP に対応していま"
+"す。%s"
 
 #: home.php:163
 msgid "Frequently Asked Questions"
