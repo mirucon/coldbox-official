@@ -34,7 +34,7 @@ get_header( 'child' );
 
 
 	<div class="content-box image">
-		<div class="container"><img src="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-image.png' ) ); ?>" width='2000' height='1500'/></div>
+		<div class="container"><img src="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-image.png' ) ); ?>" width='960' height='720'/></div>
 	</div>
 
 	<div class="content-box features">
