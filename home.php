@@ -143,7 +143,7 @@ get_header( 'child' );
 						<h2><?php esc_html_e( 'Support AMP', 'official' ); ?></h2>
 						<p>
 						<?php
-						$amp_demo_link = '<a href="' . esc_url( home_url() ) . '/demo/2017/04/27/html-tags-and-formatting/?amp=1">' . __( 'See AMP Demo', 'official' ) . '</a>';
+						$amp_demo_link = '<a href="' . esc_url( 'https://coldbox.miruc.co' ) . __( '/demo/html-tags-and-formatting/?amp=1', 'official' ) . '">' . __( 'See AMP Demo', 'official' ) . '</a>';
 						printf( /* translators: %s: URL */ esc_html__( 'Supports the AMP, which is the fastest HTML format recommened by Google. You\'ll never lost visitors due to loading speed. %s', 'official' ), wp_kses_post( $amp_demo_link ) );
 						?>
 						</p>
@@ -208,7 +208,7 @@ get_header( 'child' );
 		<div class="container">
 
 			<div class="title-box">
-				<h2 class="title">The Add-On Plugin</h2>
+				<h2 class="title"><?php esc_html_e( 'The Add-On Plugin', 'official' ); ?></h2>
 			</div>
 
 			<div class="addons-list columns cards">
