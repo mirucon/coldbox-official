@@ -21,13 +21,13 @@ function enqueue_scripts() {
 		wp_deregister_script( 'comment-reply' );
 		wp_deregister_script( 'wp-embed' );
 		wp_deregister_script( 'jquery' );
-		wp_dequeue_script( 'scripts' );
+		wp_dequeue_style( 'cd-style' );
+		wp_dequeue_script( 'cd-scripts' );
 		wp_dequeue_script( 'imagesloaded' );
 		wp_dequeue_script( 'masonry' );
 		wp_deregister_style( 'GoogleFonts' );
 		wp_dequeue_style( 'OpenSans' );
 		wp_deregister_style( 'SourceSansPro' );
-		wp_dequeue_style( 'main-style' );
 		wp_dequeue_style( 'bogo' );
 		wp_dequeue_style( 'FontAwesome' );
 		remove_action( 'wp_head', 'feed_links', 2 );
