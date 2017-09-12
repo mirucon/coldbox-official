@@ -18,7 +18,7 @@ get_header( 'child' );
 			</div>
 
 			<div class="columns is-mobile is-multiline button-list">
-				<a class="download-link button column is-primary is-desktop-2 is-3-tablet is-10-mobile" href="https://coldbox.miruc.co/coldbox.zip">
+				<a class="download-link button column is-primary is-desktop-2 is-3-tablet is-10-mobile" href="https://wordpress.org/themes/coldbox/">
 					<span class="icon"><i class="fa fa-wordpress"></i></span><span><?php esc_html_e( 'Download', 'official' ); ?></span>
 				</a>
 				<a class="demo-link button column is-info is-desktop-2 is-3-tablet is-10-mobile" href="https://coldbox.miruc.co/demo/" target="_blank">
