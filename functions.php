@@ -13,7 +13,7 @@ function enqueue_scripts() {
 
 	if ( is_front_page() && ! is_admin() ) {
 
-		$bg = get_theme_file_uri( 'img/bg.jpeg' );
+		$bg      = get_theme_file_uri( 'img/bg.jpeg' );
 		$fa_link = get_parent_theme_file_uri( '/fonts/fontawesome' );
 
 		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), '1.0.1' );
@@ -89,10 +89,10 @@ add_action( 'wp_footer', 'load_scripts' );
 //}
 //add_action( 'wp_head', 'social_settings' );
 
-add_filter( 'cd_addon_ogp_type', function coldbox_official_ogp_image( $image ) {
+add_filter( 'cd_addon_ogp_type', function( $image ) {
 	$image = get_theme_file_uri( '/img/coldbox-thumb.jpg' );
 	return $image;
-}
+});
 
 /**
  * Remove emoji
