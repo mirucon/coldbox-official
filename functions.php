@@ -53,12 +53,12 @@ add_action( 'after_setup_theme', 'theme_supports' );
  *
  * @since 1.0.0
  */
-function load_ga() {
-	?>
-	<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-56308747-8', 'auto'); ga('send', 'pageview');</script>
-	<?php
-}
-add_action( 'wp_head', 'load_ga' );
+// function load_ga() {
+// 	?>
+// 	<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-56308747-8', 'auto'); ga('send', 'pageview');</script>
+// 	<?php
+// }
+// add_action( 'wp_head', 'load_ga' );
 
 /**
  * Load GA
@@ -98,6 +98,11 @@ add_action( 'wp_footer', 'load_scripts' );
 //	}
 //}
 //add_action( 'wp_head', 'social_settings' );
+
+add_filter( 'cd_addon_ogp_type', function coldbox_official_ogp_image( $image ) {
+	$image = get_theme_file_uri( '/img/coldbox-thumb.jpg' );
+	return $image;
+}
 
 /**
  * Remove emoji
