@@ -78,26 +78,26 @@ add_action( 'wp_footer', 'load_scripts' );
  *
  * @since 1.0.0
  */
-function social_settings() {
-
-	if ( is_front_page() ) {
-		?>
-		<meta property="og:type" content="website" />
-		<meta property="og:site_name" content="Coldbox" />
-		<meta property="og:title" content="<?php echo esc_html( wp_get_document_title() ); ?>" />
-		<meta property="og:description" content="<?php bloginfo( 'description' ); ?>" />
-		<meta property="og:image" content="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-thumb.jpg' ) ); ?>" />
-		<meta property="og:url" content="<?php echo esc_url( home_url() ); ?>" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="<?php echo esc_url( home_url() ); ?>" />
-		<meta name="twitter:site" content="@mirucons" />
-		<meta name="twitter:creator" content="@mirucons" />
-
-		<link rel="icon" type="image/jpg" href="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-favicons.jpg' ) ); ?>">
-		<?php
-	}
-}
-add_action( 'wp_head', 'social_settings' );
+//function social_settings() {
+//
+//	if ( is_front_page() ) {
+//		?>
+<!--		<meta property="og:type" content="website" />-->
+<!--		<meta property="og:site_name" content="Coldbox" />-->
+<!--		<meta property="og:title" content="--><?php //echo esc_html( wp_get_document_title() ); ?><!--" />-->
+<!--		<meta property="og:description" content="--><?php //bloginfo( 'description' ); ?><!--" />-->
+<!--		<meta property="og:image" content="--><?php //echo esc_attr( get_theme_file_uri( '/img/coldbox-thumb.jpg' ) ); ?><!--" />-->
+<!--		<meta property="og:url" content="--><?php //echo esc_url( home_url() ); ?><!--" />-->
+<!--		<meta name="twitter:card" content="summary_large_image" />-->
+<!--		<meta property="twitter:url" content="--><?php //echo esc_url( home_url() ); ?><!--" />-->
+<!--		<meta name="twitter:site" content="@mirucons" />-->
+<!--		<meta name="twitter:creator" content="@mirucons" />-->
+<!---->
+<!--		<link rel="icon" type="image/jpg" href="--><?php //echo esc_attr( get_theme_file_uri( '/img/coldbox-favicons.jpg' ) ); ?><!--">-->
+<!--		--><?php
+//	}
+//}
+//add_action( 'wp_head', 'social_settings' );
 
 /**
  * Remove emoji
