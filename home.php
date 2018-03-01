@@ -189,16 +189,16 @@ get_header( 'child' );
 				<p class="answer">
 				<?php
 				$tw = '<a href="https://twitter.com/@mirucons/" target="_blank">' . __( 'My Twitter', 'official' ) . '</a>';
-				echo sprintf( __( 'Just let me know about the bug on the forum or <a href="mailto:admin@mirucon.com">email me</a>. Thank you!', 'official' ), $tw );
+				echo sprintf( __( 'Just let me know about the bug on the forum or <a href="mailto:i@miruc.co">email me</a>. Thank you!', 'official' ), $tw );
 				?>
 				</p>
 			</div>
 
 			<div class="question-box">
 				<ul class="question">
-					<li><?php esc_html_e( 'I have a new feature request.', 'official' ); ?></li>
+					<li><?php esc_html_e( 'I wish to add a new feature to the theme.', 'official' ); ?></li>
 				</ul>
-				<p class="answer"><?php esc_html_e( 'Not satisfied with the features? You can just tell me what you want through the forum or my email.', 'official' ); ?></p>
+				<p class="answer"><?php esc_html_e( 'Not satisfied with the theme features? You can just ask me to add what you want to the theme on the forum or my email.', 'official' ); ?></p>
 			</div>
 
 		</div>
