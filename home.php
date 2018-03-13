@@ -50,7 +50,7 @@ get_header( 'child' );
 					<div class="icon column is-2"><i class="fa fa-wrench"></i></div>
 					<div class="feature-content column is-10">
 						<h2><?php esc_html_e( 'Customizable', 'official' ); ?></h2>
-						<p><?php esc_html_e( 'You can change the appearance easily without coding.', 'official' ); ?></p>
+						<p><?php esc_html_e( 'You can change the appearance easily without any coding.', 'official' ); ?></p>
 					</div>
 				</div>
 
@@ -74,7 +74,7 @@ get_header( 'child' );
 					<div class="icon column is-2"><i class="fa fa-th-list"></i></div>
 					<div class="feature-content column is-10">
 						<h2><?php esc_html_e( 'Modern Layout', 'official' ); ?></h2>
-						<p><?php esc_html_e( 'It is layouted with the Flexbox module, which is really flexible.', 'official' ); ?></p>
+						<p><?php esc_html_e( 'It is laid out with the Flexbox module, which is really flexible.', 'official' ); ?></p>
 					</div>
 				</div>
 
@@ -89,7 +89,7 @@ get_header( 'child' );
 					<div class="icon column is-2"><i class="fa fa-rocket"></i></div>
 					<div class="feature-content column is-10">
 						<h2><?php esc_html_e( 'Quick Load', 'official' ); ?></h2>
-						<p><?php esc_html_e( 'It brings your website to be quicker.', 'official' ); ?></p>
+						<p><?php esc_html_e( 'It will definitely make your website quicker.', 'official' ); ?></p>
 					</div>
 				</div>
 
@@ -97,7 +97,7 @@ get_header( 'child' );
 					<div class="icon column is-2"><i class="fa fa-pencil-square-o"></i></div>
 					<div class="feature-content column is-10">
 						<h2><?php esc_html_e( 'Blog Focused', 'official' ); ?></h2>
-						<p><?php esc_html_e( 'It is focused blogging usage.', 'official' ); ?></p>
+						<p><?php esc_html_e( 'It has been focused blogging usage.', 'official' ); ?></p>
 					</div>
 				</div> -->
 
@@ -105,7 +105,7 @@ get_header( 'child' );
 					<div class="icon column is-2"><i class="fa fa-github"></i></div>
 					<div class="feature-content column is-10">
 						<h2><?php esc_html_e( 'Free', 'official' ); ?></h2>
-						<p><?php esc_html_e( 'You can use full features and functions without any restrictions.', 'official' ); ?></p>
+						<p><?php esc_html_e( 'You can use full features and functions without any restrictions and money.', 'official' ); ?></p>
 					</div>
 				</div>
 
@@ -189,16 +189,16 @@ get_header( 'child' );
 				<p class="answer">
 				<?php
 				$tw = '<a href="https://twitter.com/@mirucons/" target="_blank">' . __( 'My Twitter', 'official' ) . '</a>';
-				echo sprintf( __( 'Just let me know about the bug on the forum or <a href="mailto:i@miruc.co">email me</a>. Thank you!', 'official' ), $tw );
+				echo sprintf( __( 'Just let me know about the bug on the forum or by <a href="mailto:i@miruc.co">sending me an email</a>. Thanks!', 'official' ), $tw );
 				?>
 				</p>
 			</div>
 
 			<div class="question-box">
 				<ul class="question">
-					<li><?php esc_html_e( 'I wish to add a new feature to the theme.', 'official' ); ?></li>
+					<li><?php esc_html_e( 'I have a new feature that I think the theme should have got?', 'official' ); ?></li>
 				</ul>
-				<p class="answer"><?php esc_html_e( 'Not satisfied with the theme features? You can just ask me to add what you want to the theme on the forum or my email.', 'official' ); ?></p>
+				<p class="answer"><?php esc_html_e( 'If you are not satisfied with the theme features, then you can just ask me to add what you want on the forum or by <a href="mailto:i@miruc.co">sending me an email</a>.', 'official' ); ?></p>
 			</div>
 
 		</div>
@@ -213,11 +213,11 @@ get_header( 'child' );
 
 			<div class="addons-list columns cards">
 
-				<a class="column card is-7 addon sharebuttons" href="<?php _e( 'https://coldbox.miruc.co/addon/', 'official' ); ?>">
-					<div class="addon-image"><img src="<?php echo esc_attr( get_theme_file_uri( 'img/icon-256x256.jpg' ) ); ?>" alt="sharebuttons"></div>
+				<a class="column card is-7 addon sharebuttons" href="<?php _e( 'https://wordpress.org/plugins/coldbox-addon/', 'official' ); ?>">
+					<div class="addon-image"><img src="<?php echo esc_url( get_theme_file_uri( 'img/icon-256x256.jpg' ) ); ?>" alt="sharebuttons"></div>
 					<div class="addon-content">
 						<h3 class="addon-title"><?php esc_html_e( 'Coldbox Addon', 'official' ); ?></h3>
-						<p class="addon-description"><?php esc_html_e( 'The powered addon for the Coldbox theme. It brings you AMP HTML and share buttons. Lightweight and safety.', 'official' ); ?></p>
+						<p class="addon-description"><?php esc_html_e( 'The powered addons for the Coldbox theme. AMP pages, Google Analytics integrations, social buttons and more!', 'official' ); ?></p>
 					</div>
 				</a>
 
