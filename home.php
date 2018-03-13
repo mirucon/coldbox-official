@@ -198,7 +198,7 @@ get_header( 'child' );
 				<ul class="question">
 					<li><?php esc_html_e( 'I have a new feature that I think the theme should have got?', 'official' ); ?></li>
 				</ul>
-				<p class="answer"><?php esc_html_e( 'If you are not satisfied with the theme features, then you can just ask me to add what you want on the forum or by <a href="mailto:i@miruc.co">sending me an email</a>.', 'official' ); ?></p>
+				<p class="answer"><?php _e( 'If you are not satisfied with the theme features, then you can just ask me to add what you want on the forum or by <a href="mailto:i@miruc.co">sending me an email</a>.', 'official' ); ?></p>
 			</div>
 
 		</div>
