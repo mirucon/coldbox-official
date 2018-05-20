@@ -89,7 +89,7 @@ add_action( 'wp_footer', 'load_scripts' );
 //}
 //add_action( 'wp_head', 'social_settings' );
 
-add_filter( 'cd_addon_ogp_type', function( $image ) {
+add_filter( 'cd_addon_ogp_image', function( $image ) {
 	$image = get_theme_file_uri( '/img/coldbox-thumb.jpg' );
 	return $image;
 });
