@@ -330,6 +330,7 @@ a {
   display: block;
   text-align: center;
   color: inherit;
+  padding: .6em;
   &:hover {
     box-shadow: 0 5px 6px rgba(10, 10, 10, .2), 0 0 0 1px rgba(10, 10, 10, .1);
     color: #00619F
@@ -337,7 +338,7 @@ a {
 }
 
 .addon-title {
-  margin: .3em 0;
+  margin: .6em 0;
   font-size: 1.16em;
   font-weight: 600;
 }
@@ -345,6 +346,26 @@ a {
   font-size: .87rem;
 }
 
+@media screen and (max-width: 768px) {
+  .addon.coldbox-addons {
+    margin-bottom:  1em;
+  }
+}
+
+.addon-image {
+  position: relative;
+}
+
+.price-bar {
+  position: absolute;
+  top: 4px;
+  right: -.6em;
+  padding: 2px 7px;
+  font-family: -apple-system, -system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  background-color: #39c;
+  color: #f7f7f7;
+}
 
 /* ------------------------------------------------------------------------- *
 *  Footer

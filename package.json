@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mirucon",
-  "license": "GPL-3.0",
+  "author": "Toshihiro Kanai",
+  "license": "GPL-2.0+",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "cssnext": "^1.8.4",
@@ -19,7 +19,7 @@
     "gulp-postcss": "^7.0.0",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.0",
     "postcss": "^6.0.1",
     "postcss-cssnext": "^2.11.0"

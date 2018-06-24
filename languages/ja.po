@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: official\n"
-"POT-Creation-Date: 2018-06-24 08:56+0900\n"
-"PO-Revision-Date: 2018-06-24 08:57+0900\n"
+"POT-Creation-Date: 2018-06-24 11:53+0900\n"
+"PO-Revision-Date: 2018-06-24 11:53+0900\n"
 "Last-Translator: Toshihiro Kanai (mirucon) <i@miruc.co>\n"
 "Language-Team: Mirucon\n"
 "Language: ja\n"
@@ -248,11 +248,11 @@ msgstr "アドオンプラグイン"
 msgid "https://wordpress.org/plugins/coldbox-addon/"
 msgstr "https://ja.wordpress.org/plugins/coldbox-addon/"
 
-#: home.php:219
+#: home.php:224
 msgid "Coldbox Addons"
 msgstr "Coldbox Addons"
 
-#: home.php:220
+#: home.php:225
 msgid ""
 "The powered addons for the Coldbox theme. AMP pages, Google Analytics "
 "integrations, social buttons and more!"
@@ -260,15 +260,19 @@ msgstr ""
 "Coldbox テーマ用に設計された軽量プラグイン。このプラグインを導入することで "
 "AMP HTML やシェアボタンが利用できるようになります。"
 
-#: home.php:224
+#: home.php:229
 msgid "https://coldbox.miruc.co/addons/google-adsense-extension/"
 msgstr "https://coldbox.miruc.co/ja/addons/google-adsense-extension/"
 
-#: home.php:227
+#: home.php:234
+msgid "$20~"
+msgstr "￥2000~"
+
+#: home.php:239
 msgid "Coldbox Ads Extension"
 msgstr "Coldbox Ads Extension"
 
-#: home.php:228
+#: home.php:240
 msgid ""
 "The unified and powered ads extension plugin which gives you the great "
 "experiences and engagements on Google AdSense without writing code at all! "
