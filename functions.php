@@ -87,7 +87,7 @@ function social_settings() {
 			<?php
 	}
 }
-add_action( 'wp_head', 'social_settings' );
+add_action( 'wp_head', 'social_settings', 1, 1 );
 
 add_filter( 'cd_addon_ogp_image', function( $image ) {
 	$image = get_theme_file_uri( '/img/coldbox-thumb.jpg' );
