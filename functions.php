@@ -86,10 +86,13 @@ function social_settings() {
 			<link rel="icon" type="image/jpg" href="<?php echo esc_attr( get_theme_file_uri( '/img/coldbox-favicons.jpg' ) ); ?>">
 			<?php
 	}
+	
+	if ( is_front_page() ) {
+		remove_action( 'wp_head', 'cd_addon_meta_ogp' );	
+	}
 }
 add_action( 'wp_head', 'social_settings', 1, 1 );
 
-remove_action( 'wp_head', 'cd_addon_meta_ogp' );
 
 add_filter( 'cd_addon_ogp_image', function( $image ) {
 	$image = get_theme_file_uri( '/img/coldbox-thumb.jpg' );
