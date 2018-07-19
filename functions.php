@@ -16,7 +16,7 @@ function enqueue_scripts() {
 		$bg      = get_theme_file_uri( 'img/bg.jpeg' );
 		$fa_link = get_parent_theme_file_uri( '/fonts/fontawesome' );
 
-		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), '1.0.2' );
+		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), '1.0.3' );
 		wp_dequeue_style( 'icomoon' );
 		wp_deregister_script( 'comment-reply' );
 		wp_deregister_script( 'wp-embed' );
