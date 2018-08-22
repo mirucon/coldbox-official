@@ -13,7 +13,7 @@ function enqueue_scripts() {
 
 	if ( is_front_page() && ! is_admin() ) {
 
-		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), [], '1.0.4' );
+		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), [], '1.0.0-47c' );
 		wp_dequeue_style( 'icomoon' );
 		wp_deregister_script( 'comment-reply' );
 		wp_deregister_script( 'wp-embed' );
