@@ -395,11 +395,13 @@ a {
     display: flex;
     align-items: center;
     padding: 0 .7em;
-    .fa { font-size: 1.84em; }
+    .fab, .fa { font-size: 1.84em; }
     & > li:not(:first-child) { margin-left: .5em; }
 
   }
 }
+
+.is-hidden-desktop
 
 html body .screen-reader-text { position: absolute;	width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px); overflow: hidden;	}
 

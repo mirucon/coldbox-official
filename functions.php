@@ -13,16 +13,14 @@ function enqueue_scripts() {
 
 	if ( is_front_page() && ! is_admin() ) {
 
-		$bg      = get_theme_file_uri( 'img/bg.jpeg' );
-		$fa_link = get_parent_theme_file_uri( '/fonts/fontawesome' );
-
 		wp_enqueue_style( 'official-style', get_theme_file_uri( 'style.min.css' ), '1.0.2' );
 		wp_dequeue_style( 'icomoon' );
 		wp_deregister_script( 'comment-reply' );
 		wp_deregister_script( 'wp-embed' );
 		wp_deregister_script( 'jquery' );
 		wp_dequeue_style( 'cd-style' );
-		wp_dequeue_script( 'cd-scripts' );
+		wp_deregister_style( 'cd-style' );
+		wp_dequeue_script( 'cd-script' );
 		wp_dequeue_script( 'imagesloaded' );
 		wp_dequeue_script( 'masonry' );
 		wp_deregister_style( 'GoogleFonts' );
@@ -106,20 +104,3 @@ add_filter( 'cd_addon_ogp_image', function( $image ) {
  */
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
-
-
-/**
- * Use Google CDN's jQuery instead.
- *
- * @since 1.0.0
- */
-function replace_jquery() {
-
-	if ( ! is_front_page() && ! is_admin() ) {
-		wp_deregister_script( 'jquery' );
-		wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', false, '3.2.1' );
-		wp_enqueue_script( 'jquery' );
-	}
-
-}
-add_action( 'init', 'replace_jquery' );

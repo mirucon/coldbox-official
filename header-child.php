@@ -21,7 +21,7 @@ get_header( 'child' );
 
 	  <nav class="nav">
 		<div class="nav-left"><a class="site-title" href="<?php esc_url( home_url() ); ?>">Coldbox</a></div>
-		<div class="nav-center is-hidden-desktop">
+		<div class="nav-center is-hidden-tablet">
 		  <div class="nav-item"><a href="https://github.com/mirucon/coldbox" target="_blank"><span class="icon"><i class="fa fa-github"></i></span></a></div>
 		</div>
 
