@@ -14,7 +14,7 @@
   "author": "Toshihiro Kanai <i@miruc.co>",
   "license": "GPL-2.0+",
   "devDependencies": {
-    "autoprefixer": "10.0.3",
+    "autoprefixer": "10.0.4",
     "cssnano": "4.1.10",
     "cssnext": "1.8.4",
     "node-sass": "4.14.1",
