@@ -15,7 +15,7 @@
   "license": "GPL-2.0+",
   "devDependencies": {
     "autoprefixer": "10.4.2",
-    "cssnano": "4.1.11",
+    "cssnano": "5.0.17",
     "cssnext": "1.8.5",
     "node-sass": "7.0.1",
     "node-sass-chokidar": "1.5.0",
